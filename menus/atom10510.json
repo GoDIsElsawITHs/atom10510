@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom10510",
+        "command": "atom10510:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom10510",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom10510:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
